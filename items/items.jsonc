@@ -1,0 +1,753 @@
+[
+  {
+    "name": "Toggle",
+    "type": "toggle",
+    "img": "images/items/toggle.png",
+    "codes": "Toggle"
+  },
+  {
+    "name": "Progressive",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/progressive.png",
+        "codes": "progressive",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/progressive_2.png",
+        "codes": "progressive_2",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Consumable",
+    "type": "consumable",
+    "img": "images/items/consumable.png",
+    "max_quantity": 8,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "Consumable"
+  },
+  {
+    "name": "Progressive  Toggle",
+    "type": "progressive_toggle",
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/progressive.png",
+        "codes": "progressive_toggle",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/progressive_2.png",
+        "codes": "progressive_toggle_2",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Progressive Pick",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "codes": "ProgressivePick",
+    "stages": [
+      {
+        "name": "Iron Pick",
+        "img": "images/items/IronPick.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Blessed Pick",
+        "img": "images/items/BlessedPick.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Bolt Anchor",
+        "img": "images/items/BoltAnchor.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Progressive Hand",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "codes": "ProgressiveHand",
+    "stages": [
+      {
+        "name": "Dread Hand",
+        "img": "images/items/DreadHand.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Empowered Hand",
+        "img": "images/items/EmpoweredHand.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Progressive Knuckle",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "codes": "ProgressiveKnuckle",
+    "stages": [
+      {
+        "name": "Rust Knuckle",
+        "img": "images/items/RustKnuckle.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Flare Knuckle",
+        "img": "images/items/FlareKnuckle.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Coin Of Crowl",
+    "type": "consumable",
+    "img": "images/items/CoinOfCrowl.png",
+    "max_quantity": 13,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "CoinOfCrowl"
+  },
+  {
+    "name": "Normal Key",
+    "type": "consumable",
+    "img": "images/items/NormalKey.png",
+    "max_quantity": 100,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "NormalKey"
+  },
+  {
+    "name": "Crest Fragment",
+    "type": "consumable",
+    "img": "images/items/CrestFragment.png",
+    "max_quantity": 5,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "CrestFragment"
+  },
+  {
+    "name": "Heart Ore",
+    "type": "consumable",
+    "img": "images/items/HeartOre.png",
+    "max_quantity": 24,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "HeartOre"
+  },
+  {
+    "name": "Boneyard Key",
+    "type": "consumable",
+    "img": "images/items/BoneyardKey.png",
+    "max_quantity": 1,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "BoneyardKey"
+  },
+  {
+    "name": "Tidal Mines Key",
+    "type": "consumable",
+    "img": "images/items/TidalMinesKey.png",
+    "max_quantity": 4,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "TidalMinesKey"
+  },
+  {
+    "name": "Crocasino Key",
+    "type": "consumable",
+    "img": "images/items/CrocasinoKey.png",
+    "max_quantity": 2,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "CrocasinoKey"
+  },
+  {
+    "name": "Howling Bjerg Key",
+    "type": "consumable",
+    "img": "images/items/HowlingBjergKey.png",
+    "max_quantity": 1,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "HowlingBjergKey"
+  },
+  {
+    "name": "Castle Vann Key",
+    "type": "consumable",
+    "img": "images/items/CastleVannKey.png",
+    "max_quantity": 3,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "CastleVannKey"
+  },
+  {
+    "name": "Magma Heart Key",
+    "type": "consumable",
+    "img": "images/items/MagmaHeartKey.png",
+    "max_quantity": 4,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "MagmaHeartKey"
+  },
+  {
+    "name": "Time Out Key",
+    "type": "consumable",
+    "img": "images/items/TimeOutKey.png",
+    "max_quantity": 3,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "TimeOutKey"
+  },
+  {
+    "name": "Lighthouse Key",
+    "type": "consumable",
+    "img": "images/items/LighthouseKey.png",
+    "max_quantity": 1,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "LighthouseKey"
+  },
+  {
+    "name": "Crystal Caves Key",
+    "type": "consumable",
+    "img": "images/items/CrystalCavesKey.png",
+    "max_quantity": 3,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "CrystalCavesKey"
+  },
+  {
+    "name": "Haunted Hall Key",
+    "type": "consumable",
+    "img": "images/items/HauntedHallKey.png",
+    "max_quantity": 2,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "HauntedHallKey"
+  },
+  {
+    "name": "Siskas Workshop Key",
+    "type": "consumable",
+    "img": "images/items/SiskasWorkshopKey.png",
+    "max_quantity": 3,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "SiskasWorkshopKey"
+  },
+  {
+    "name": "Backrooms Key",
+    "type": "consumable",
+    "img": "images/items/BackroomsKey.png",
+    "max_quantity": 2,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "BackroomsKey"
+  },
+  {
+    "name": "Pirates Pier Key",
+    "type": "consumable",
+    "img": "images/items/PiratesPierKey.png",
+    "max_quantity": 5,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "PiratesPierKey"
+  },
+  {
+    "name": "Bjerg Castle Key",
+    "type": "consumable",
+    "img": "images/items/BjergCastleKey.png",
+    "max_quantity": 1,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "BjergCastleKey"
+  },
+  {
+    "name": "Lariat",
+    "type": "toggle",
+    "img": "images/items/Lariat.png",
+    "codes": "Lariat"
+  },
+  {
+    "name": "Lucky Boots",
+    "type": "toggle",
+    "img": "images/items/LuckyBoots.png",
+    "codes": "LuckyBoots"
+  },
+  {
+    "name": "Cleated Boots",
+    "type": "toggle",
+    "img": "images/items/CleatedBoots.png",
+    "codes": "CleatedBoots"
+  },
+  {
+    "name": "Anchor Greaves",
+    "type": "toggle",
+    "img": "images/items/AnchorGreaves.png",
+    "codes": "AnchorGreaves"
+  },
+  {
+    "name": "Boots Of Graile",
+    "type": "toggle",
+    "img": "images/items/BootsOfGraile.png",
+    "codes": "BootsOfGraile"
+  },
+  {
+    "name": "Winged Boots",
+    "type": "toggle",
+    "img": "images/items/WingedBoots.png",
+    "codes": "WingedBoots"
+  },
+  {
+    "name": "Old Recipe",
+    "type": "toggle",
+    "img": "images/items/OldRecipe.png",
+    "codes": "OldRecipe"
+  },
+  {
+    "name": "Coffee",
+    "type": "toggle",
+    "img": "images/items/Coffee.png",
+    "codes": "Coffee"
+  },
+  {
+    "name": "Tattered Cape",
+    "type": "toggle",
+    "img": "images/items/TatteredCape.png",
+    "codes": "TatteredCape"
+  },
+  {
+    "name": "Ball Of Yarn",
+    "type": "toggle",
+    "img": "images/items/BallOfYarn.png",
+    "codes": "BallOfYarn"
+  },
+  {
+    "name": "Slime Soap",
+    "type": "toggle",
+    "img": "images/items/SlimeSoap.png",
+    "codes": "SlimeSoap"
+  },
+  {
+    "name": "Serpent Bracelet",
+    "type": "toggle",
+    "img": "images/items/SerpentBracelet.png",
+    "codes": "SerpentBracelet"
+  },
+  {
+    "name": "The Carrot Cake",
+    "type": "toggle",
+    "img": "images/items/TheCarrotCake.png",
+    "codes": "TheCarrotCake"
+  },
+  {
+    "name": "Hunting Bow",
+    "type": "toggle",
+    "img": "images/items/HuntingBow.png",
+    "codes": "HuntingBow"
+  },
+  {
+    "name": "Down Pillow",
+    "type": "toggle",
+    "img": "images/items/DownPillow.png",
+    "codes": "DownPillow"
+  },
+  {
+    "name": "Giants Monocle",
+    "type": "toggle",
+    "img": "images/items/GiantsMonocle.png",
+    "codes": "GiantsMonocle"
+  },
+  {
+    "name": "Forbidden Book",
+    "type": "toggle",
+    "img": "images/items/ForbiddenBook.png",
+    "codes": "ForbiddenBook"
+  },
+  {
+    "name": "Kelp Rolls",
+    "type": "toggle",
+    "img": "images/items/KelpRolls.png",
+    "codes": "KelpRolls"
+  },
+  {
+    "name": "Boss Key",
+    "type": "toggle",
+    "img": "images/items/BossKey.png",
+    "codes": "BossKey"
+  },
+  {
+    "name": "Hallowed Key",
+    "type": "toggle",
+    "img": "images/items/HallowedKey.png",
+    "codes": "HallowedKey"
+  },
+  {
+    "name": "Rusty Key",
+    "type": "toggle",
+    "img": "images/items/RustyKey.png",
+    "codes": "RustyKey"
+  },
+  {
+    "name": "Gator Key",
+    "type": "toggle",
+    "img": "images/items/GatorKey.png",
+    "codes": "GatorKey"
+  },
+  {
+    "name": "Bunny Key",
+    "type": "toggle",
+    "img": "images/items/BunnyKey.png",
+    "codes": "BunnyKey"
+  },
+  {
+    "name": "Toadstool",
+    "type": "toggle",
+    "img": "images/items/Toadstool.png",
+    "codes": "Toadstool"
+  },
+  {
+    "name": "Frozen Thorn",
+    "type": "toggle",
+    "img": "images/items/FrozenThorn.png",
+    "codes": "FrozenThorn"
+  },
+  {
+    "name": "Luminous Crystal",
+    "type": "toggle",
+    "img": "images/items/LuminousCrystal.png",
+    "codes": "LuminousCrystal"
+  },
+  {
+    "name": "Fury Heart",
+    "type": "toggle",
+    "img": "images/items/FuryHeart.png",
+    "codes": "FuryHeart"
+  },
+  {
+    "name": "Shattered Soul",
+    "type": "toggle",
+    "img": "images/items/ShatteredSoul.png",
+    "codes": "ShatteredSoul"
+  },
+  {
+    "name": "Drowned Ore",
+    "type": "toggle",
+    "img": "images/items/DrownedOre.png",
+    "codes": "DrownedOre"
+  },
+  {
+    "name": "Shaedrite",
+    "type": "toggle",
+    "img": "images/items/Shaedrite.png",
+    "codes": "Shaedrite"
+  },
+  {
+    "name": "Miasmic Extract",
+    "type": "toggle",
+    "img": "images/items/MiasmicExtract.png",
+    "codes": "MiasmicExtract"
+  },
+  {
+    "name": "Lost Shipment",
+    "type": "toggle",
+    "img": "images/items/LostShipment.png",
+    "codes": "LostShipment"
+  },
+  {
+    "name": "Broken Sword",
+    "type": "toggle",
+    "img": "images/items/BrokenSword.png",
+    "codes": "BrokenSword"
+  },
+  {
+    "name": "Cursed Bones",
+    "type": "toggle",
+    "img": "images/items/CursedBones.png",
+    "codes": "CursedBones"
+  },
+  {
+    "name": "Bone Key",
+    "type": "toggle",
+    "img": "images/items/BoneKey.png",
+    "codes": "BoneKey"
+  },
+  {
+    "name": "Sunset Painting",
+    "type": "toggle",
+    "img": "images/items/SunsetPainting.png",
+    "codes": "SunsetPainting"
+  },
+  {
+    "name": "Cursed Pick",
+    "type": "toggle",
+    "img": "images/items/CursedPick.png",
+    "codes": "CursedPick"
+  },
+  {
+    "name": "Daemons Key",
+    "type": "toggle",
+    "img": "images/items/DaemonsKey.png",
+    "codes": "DaemonsKey"
+  },
+  {
+    "name": "Divine Key",
+    "type": "toggle",
+    "img": "images/items/DivineKey.png",
+    "codes": "DivineKey"
+  },
+  {
+    "name": "Prison Key",
+    "type": "toggle",
+    "img": "images/items/PrisonKey.png",
+    "codes": "PrisonKey"
+  },
+  {
+    "name": "Stindles Map",
+    "type": "toggle",
+    "img": "images/items/StindlesMap.png",
+    "codes": "StindlesMap"
+  },
+  {
+    "name": "Harmonica",
+    "type": "toggle",
+    "img": "images/items/Harmonica.png",
+    "codes": "Harmonica"
+  },
+  {
+    "name": "Ice Key",
+    "type": "toggle",
+    "img": "images/items/IceKey.png",
+    "codes": "IceKey"
+  },
+  {
+    "name": "Silvered Scarf",
+    "type": "toggle",
+    "img": "images/items/SilveredScarf.png",
+    "codes": "SilveredScarf"
+  },
+  {
+    "name": "Old Hairpin",
+    "type": "toggle",
+    "img": "images/items/OldHairpin.png",
+    "codes": "OldHairpin"
+  },
+  {
+    "name": "Ora Moa",
+    "type": "toggle",
+    "img": "images/items/OraMoa.png",
+    "codes": "OraMoa"
+  },
+  {
+    "name": "Eerie Mask",
+    "type": "toggle",
+    "img": "images/items/EerieMask.png",
+    "codes": "EerieMask"
+  },
+  {
+    "name": "Frozen Heart",
+    "type": "toggle",
+    "img": "images/items/FrozenHeart.png",
+    "codes": "FrozenHeart"
+  },
+  {
+    "name": "Red Crystal",
+    "type": "toggle",
+    "img": "images/items/RedCrystal.png",
+    "codes": "RedCrystal"
+  },
+  {
+    "name": "Weapon Chain",
+    "type": "toggle",
+    "img": "images/items/WeaponChain.png",
+    "codes": "WeaponChain"
+  },
+  {
+    "name": "Climbing Gear",
+    "type": "toggle",
+    "img": "images/items/ClimbingGear.png",
+    "codes": "ClimbingGear"
+  },
+  {
+    "name": "Illusion Ring",
+    "type": "toggle",
+    "img": "images/items/IllusionRing.png",
+    "codes": "IllusionRing"
+  },
+  {
+    "name": "Golem Ring",
+    "type": "toggle",
+    "img": "images/items/GolemRing.png",
+    "codes": "GolemRing"
+  },
+  {
+    "name": "Magnet Ring",
+    "type": "toggle",
+    "img": "images/items/MagnetRing.png",
+    "codes": "MagnetRing"
+  },
+  {
+    "name": "Spiked Ring",
+    "type": "toggle",
+    "img": "images/items/SpikedRing.png",
+    "codes": "SpikedRing"
+  },
+  {
+    "name": "Hearth Ring",
+    "type": "toggle",
+    "img": "images/items/HearthRing.png",
+    "codes": "HearthRing"
+  },
+  {
+    "name": "Daemons Ring",
+    "type": "toggle",
+    "img": "images/items/DaemonsRing.png",
+    "codes": "DaemonsRing"
+  },
+  {
+    "name": "Kings Ring",
+    "type": "toggle",
+    "img": "images/items/KingsRing.png",
+    "codes": "KingsRing"
+  },
+  {
+    "name": "Dusty Key",
+    "type": "toggle",
+    "img": "images/items/DustyKey.png",
+    "codes": "DustyKey"
+  },
+  {
+    "name": "Life Blessing",
+    "type": "toggle",
+    "img": "images/items/LifeBlessing.png",
+    "codes": "LifeBlessing"
+  },
+  {
+    "name": "Light Blessing",
+    "type": "toggle",
+    "img": "images/items/LightBlessing.png",
+    "codes": "LightBlessing"
+  },
+  {
+    "name": "Storm Blessing",
+    "type": "toggle",
+    "img": "images/items/StormBlessing.png",
+    "codes": "StormBlessing"
+  },
+  {
+    "name": "Earth Blessing",
+    "type": "toggle",
+    "img": "images/items/EarthBlessing.png",
+    "codes": "EarthBlessing"
+  },
+  {
+    "name": "Water Blessing",
+    "type": "toggle",
+    "img": "images/items/WaterBlessing.png",
+    "codes": "WaterBlessing"
+  },
+  {
+    "name": "Heros Soul",
+    "type": "toggle",
+    "img": "images/items/HerosSoul.png",
+    "codes": "HerosSoul"
+  },
+  {
+    "name": "Bandana",
+    "type": "toggle",
+    "img": "images/items/Bandana.png",
+    "codes": "Bandana"
+  },
+  {
+    "name": "Holy Relic",
+    "type": "toggle",
+    "img": "images/items/HolyRelic.png",
+    "codes": "HolyRelic"
+  },
+  {
+    "name": "Wedding Ring",
+    "type": "toggle",
+    "img": "images/items/WeddingRing.png",
+    "codes": "WeddingRing"
+  },
+  {
+    "name": "Silver Mirror",
+    "type": "toggle",
+    "img": "images/items/SilverMirror.png",
+    "codes": "SilverMirror"
+  },
+  {
+    "name": "Painting",
+    "type": "toggle",
+    "img": "images/items/Painting.png",
+    "codes": "Painting"
+  }
+]

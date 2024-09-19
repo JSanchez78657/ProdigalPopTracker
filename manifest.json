@@ -1,18 +1,17 @@
 {
-  "name": "Prodigal AP Tracker",
+  "name": "Prodigal ",
   "game_name": "Prodigal",
+  "package_version": "0.0.1",
   "package_uid": "prodigal_karato",
-  "package_version": "0.1",
   "platform": "pc",
   "author": "MrKarato",
+  "target_poptracker_version": "0.28.0",
   "variants": {
     "standard": {
-      "display_name": "Map Tracker",
+      "display_name": "Prodigal Map Tracker",
       "flags": [
         "ap"
       ]
     }
-  },
-  "versions_url": "https://example.com/versions.json",
-  "min_poptracker_version": "0.28"
+  }
 }
