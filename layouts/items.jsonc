@@ -3,7 +3,7 @@
   // bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
   "shared_item_grid": {
     "type": "array",
-    "orientation": "vertical",
+    "orientation": "horizontal",
     "margin": "0,0",
     "content": [
       {
@@ -16,22 +16,40 @@
             "item_margin": "10, 10",
             "h_alignment": "left",
             "rows": [
+              //Main Gameplay Impact items
               [
-                "toggle",
-                "progressive"
+                "ProgressivePick", "WeaponChain", "Lariat", "ProgressiveHand","ProgressiveKnuckle", "WingedBoots", "CleatedBoots", "AnchorGreaves", "LuckyBoots", "BootsOfGraile"
+              ],
+              //Rings + Consumables
+              [
+                "IllusionRing", "GolemRing", "MagnetRing", "SpikedRing", "DaemonsRing", "HearthRing", "KingsRing", "SilveredScarf", "NormalKey", "HeartOre"
+              ],
+              //Sunset Painting Hunt items and Blessings
+              [
+                "ClimbingGear", "Bandana", "CoinOfCrowl", "CrestFragment"
+              ],
+              //Single Check Items
+              [
+                "Toadstool", "FrozenThorn", "LuminousCrystal", "CursedPick", "CursedBones", "StindlesMap", "Harmonica", "OldHairpin", "OraMoa", "EerieMask"
+              ],
+              //Keys
+              [
+                "BossKey", "RustyKey", "GatorKey", "BunnyKey", "BoneKey", "DaemonsKey", "DivineKey", "PrisonKey", "DustyKey", "HallowedKey"
+              ],
+              //Nightfall items
+              [
+                "DrownedOre", "MiasmicExtract", "Shaedrite", "BrokenSword", "SunsetPainting", "RedCrystal", "ShatteredSoul", "FuryHeart", "FrozenHeart"
+              ],
+              //Sunset Painting Hunt items and Blessings
+              [
+                "Painting", "WeddingRing", "HolyRelic", "SilverMirror", "LifeBlessing", "LightBlessing", "StormBlessing", "EarthBlessing", "WaterBlessing", "HerosSoul"
+              ],
+              //Trader Items
+              [
+                "LostShipment", "Coffee", "TatteredCape", "BallOfYarn", "SlimeSoap", "SerpentBracelet", "TheCarrotCake", "HuntingBow", "DownPillow", "GiantsMonocle"
               ],
               [
-                "consumable",
-                "progressive_toggle"
-              ],
-              [
-                "ProgressivePick", "ProgressiveHand","ProgressiveKnuckle"
-              ],
-              [
-                "CoinOfCrowl"
-              ],
-              [
-                "Lariat"
+                "ForbiddenBook", "KelpRolls"
               ]
             ]
           }

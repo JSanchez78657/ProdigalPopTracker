@@ -1,58 +1,5 @@
 [
   {
-    "name": "Toggle",
-    "type": "toggle",
-    "img": "images/items/toggle.png",
-    "codes": "Toggle"
-  },
-  {
-    "name": "Progressive",
-    "type": "progressive",
-    "allow_disabled": true,
-    "initial_stage_idx": 0,
-    "stages": [
-      {
-        "img": "images/items/progressive.png",
-        "codes": "progressive",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/items/progressive_2.png",
-        "codes": "progressive_2",
-        "inherit_codes": false
-      }
-    ]
-  },
-  {
-    "name": "Consumable",
-    "type": "consumable",
-    "img": "images/items/consumable.png",
-    "max_quantity": 8,
-    "increment": 1,
-    "decrement": 1,
-    "initial_quantity": 0,
-    "overlay_background": "#000000",
-    "overlay_font_size": 8,
-    "codes": "Consumable"
-  },
-  {
-    "name": "Progressive  Toggle",
-    "type": "progressive_toggle",
-    "initial_stage_idx": 0,
-    "stages": [
-      {
-        "img": "images/items/progressive.png",
-        "codes": "progressive_toggle",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/items/progressive_2.png",
-        "codes": "progressive_toggle_2",
-        "inherit_codes": false
-      }
-    ]
-  },
-  {
     "name": "Progressive Pick",
     "type": "progressive",
     "allow_disabled": true,
@@ -115,6 +62,30 @@
     ]
   },
   {
+    "name": "Heart Ore",
+    "type": "consumable",
+    "img": "images/items/HeartOre.png",
+    "max_quantity": 24,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "HeartOre"
+  },
+  {
+    "name": "Crest Fragment",
+    "type": "consumable",
+    "img": "images/items/CrestFragment.png",
+    "max_quantity": 5,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "CrestFragment"
+  },
+  {
     "name": "Coin Of Crowl",
     "type": "consumable",
     "img": "images/items/CoinOfCrowl.png",
@@ -133,43 +104,19 @@
     "max_quantity": 100,
     "increment": 1,
     "decrement": 1,
-    "initial_quantity": 1,
+    "initial_quantity": 0,
     "overlay_background": "#000000",
     "overlay_font_size": 8,
     "codes": "NormalKey"
   },
   {
-    "name": "Crest Fragment",
-    "type": "consumable",
-    "img": "images/items/CrestFragment.png",
-    "max_quantity": 5,
-    "increment": 1,
-    "decrement": 1,
-    "initial_quantity": 1,
-    "overlay_background": "#000000",
-    "overlay_font_size": 8,
-    "codes": "CrestFragment"
-  },
-  {
-    "name": "Heart Ore",
-    "type": "consumable",
-    "img": "images/items/HeartOre.png",
-    "max_quantity": 24,
-    "increment": 1,
-    "decrement": 1,
-    "initial_quantity": 1,
-    "overlay_background": "#000000",
-    "overlay_font_size": 8,
-    "codes": "HeartOre"
-  },
-  {
     "name": "Boneyard Key",
     "type": "consumable",
-    "img": "images/items/BoneyardKey.png",
+    "img": "images/items/NormalKey.png",
     "max_quantity": 1,
     "increment": 1,
     "decrement": 1,
-    "initial_quantity": 1,
+    "initial_quantity": 0,
     "overlay_background": "#000000",
     "overlay_font_size": 8,
     "codes": "BoneyardKey"
@@ -177,11 +124,11 @@
   {
     "name": "Tidal Mines Key",
     "type": "consumable",
-    "img": "images/items/TidalMinesKey.png",
+    "img": "images/items/NormalKey.png",
     "max_quantity": 4,
     "increment": 1,
     "decrement": 1,
-    "initial_quantity": 1,
+    "initial_quantity": 0,
     "overlay_background": "#000000",
     "overlay_font_size": 8,
     "codes": "TidalMinesKey"
@@ -189,11 +136,11 @@
   {
     "name": "Crocasino Key",
     "type": "consumable",
-    "img": "images/items/CrocasinoKey.png",
+    "img": "images/items/NormalKey.png",
     "max_quantity": 2,
     "increment": 1,
     "decrement": 1,
-    "initial_quantity": 1,
+    "initial_quantity": 0,
     "overlay_background": "#000000",
     "overlay_font_size": 8,
     "codes": "CrocasinoKey"
@@ -201,11 +148,11 @@
   {
     "name": "Howling Bjerg Key",
     "type": "consumable",
-    "img": "images/items/HowlingBjergKey.png",
+    "img": "images/items/NormalKey.png",
     "max_quantity": 1,
     "increment": 1,
     "decrement": 1,
-    "initial_quantity": 1,
+    "initial_quantity": 0,
     "overlay_background": "#000000",
     "overlay_font_size": 8,
     "codes": "HowlingBjergKey"
@@ -213,11 +160,11 @@
   {
     "name": "Castle Vann Key",
     "type": "consumable",
-    "img": "images/items/CastleVannKey.png",
+    "img": "images/items/NormalKey.png",
     "max_quantity": 3,
     "increment": 1,
     "decrement": 1,
-    "initial_quantity": 1,
+    "initial_quantity": 0,
     "overlay_background": "#000000",
     "overlay_font_size": 8,
     "codes": "CastleVannKey"
@@ -225,11 +172,11 @@
   {
     "name": "Magma Heart Key",
     "type": "consumable",
-    "img": "images/items/MagmaHeartKey.png",
+    "img": "images/items/NormalKey.png",
     "max_quantity": 4,
     "increment": 1,
     "decrement": 1,
-    "initial_quantity": 1,
+    "initial_quantity": 0,
     "overlay_background": "#000000",
     "overlay_font_size": 8,
     "codes": "MagmaHeartKey"
@@ -237,11 +184,11 @@
   {
     "name": "Time Out Key",
     "type": "consumable",
-    "img": "images/items/TimeOutKey.png",
+    "img": "images/items/NormalKey.png",
     "max_quantity": 3,
     "increment": 1,
     "decrement": 1,
-    "initial_quantity": 1,
+    "initial_quantity": 0,
     "overlay_background": "#000000",
     "overlay_font_size": 8,
     "codes": "TimeOutKey"
@@ -249,11 +196,11 @@
   {
     "name": "Lighthouse Key",
     "type": "consumable",
-    "img": "images/items/LighthouseKey.png",
+    "img": "images/items/NormalKey.png",
     "max_quantity": 1,
     "increment": 1,
     "decrement": 1,
-    "initial_quantity": 1,
+    "initial_quantity": 0,
     "overlay_background": "#000000",
     "overlay_font_size": 8,
     "codes": "LighthouseKey"
@@ -261,11 +208,11 @@
   {
     "name": "Crystal Caves Key",
     "type": "consumable",
-    "img": "images/items/CrystalCavesKey.png",
+    "img": "images/items/NormalKey.png",
     "max_quantity": 3,
     "increment": 1,
     "decrement": 1,
-    "initial_quantity": 1,
+    "initial_quantity": 0,
     "overlay_background": "#000000",
     "overlay_font_size": 8,
     "codes": "CrystalCavesKey"
@@ -273,23 +220,23 @@
   {
     "name": "Haunted Hall Key",
     "type": "consumable",
-    "img": "images/items/HauntedHallKey.png",
+    "img": "images/items/NormalKey.png",
     "max_quantity": 2,
     "increment": 1,
     "decrement": 1,
-    "initial_quantity": 1,
+    "initial_quantity": 0,
     "overlay_background": "#000000",
     "overlay_font_size": 8,
     "codes": "HauntedHallKey"
   },
   {
-    "name": "Siskas Workshop Key",
+    "name": "Siska's Workshop Key",
     "type": "consumable",
-    "img": "images/items/SiskasWorkshopKey.png",
+    "img": "images/items/NormalKey.png",
     "max_quantity": 3,
     "increment": 1,
     "decrement": 1,
-    "initial_quantity": 1,
+    "initial_quantity": 0,
     "overlay_background": "#000000",
     "overlay_font_size": 8,
     "codes": "SiskasWorkshopKey"
@@ -297,23 +244,23 @@
   {
     "name": "Backrooms Key",
     "type": "consumable",
-    "img": "images/items/BackroomsKey.png",
+    "img": "images/items/NormalKey.png",
     "max_quantity": 2,
     "increment": 1,
     "decrement": 1,
-    "initial_quantity": 1,
+    "initial_quantity": 0,
     "overlay_background": "#000000",
     "overlay_font_size": 8,
     "codes": "BackroomsKey"
   },
   {
-    "name": "Pirates Pier Key",
+    "name": "Pirate's Pier Key",
     "type": "consumable",
-    "img": "images/items/PiratesPierKey.png",
+    "img": "images/items/NormalKey.png",
     "max_quantity": 5,
     "increment": 1,
     "decrement": 1,
-    "initial_quantity": 1,
+    "initial_quantity": 0,
     "overlay_background": "#000000",
     "overlay_font_size": 8,
     "codes": "PiratesPierKey"
@@ -321,11 +268,11 @@
   {
     "name": "Bjerg Castle Key",
     "type": "consumable",
-    "img": "images/items/BjergCastleKey.png",
+    "img": "images/items/NormalKey.png",
     "max_quantity": 1,
     "increment": 1,
     "decrement": 1,
-    "initial_quantity": 1,
+    "initial_quantity": 0,
     "overlay_background": "#000000",
     "overlay_font_size": 8,
     "codes": "BjergCastleKey"
@@ -553,7 +500,7 @@
     "codes": "CursedPick"
   },
   {
-    "name": "Daemons Key",
+    "name": "Daemon's Key",
     "type": "toggle",
     "img": "images/items/DaemonsKey.png",
     "codes": "DaemonsKey"
@@ -571,7 +518,7 @@
     "codes": "PrisonKey"
   },
   {
-    "name": "Stindles Map",
+    "name": "Stindle's Map",
     "type": "toggle",
     "img": "images/items/StindlesMap.png",
     "codes": "StindlesMap"
@@ -582,12 +529,12 @@
     "img": "images/items/Harmonica.png",
     "codes": "Harmonica"
   },
-  {
-    "name": "Ice Key",
-    "type": "toggle",
-    "img": "images/items/IceKey.png",
-    "codes": "IceKey"
-  },
+  // {
+  //   "name": "Ice Key",
+  //   "type": "toggle",
+  //   "img": "images/items/IceKey.png",
+  //   "codes": "IceKey"
+  // },
   {
     "name": "Silvered Scarf",
     "type": "toggle",
@@ -667,13 +614,13 @@
     "codes": "HearthRing"
   },
   {
-    "name": "Daemons Ring",
+    "name": "Daemon's Ring",
     "type": "toggle",
     "img": "images/items/DaemonsRing.png",
     "codes": "DaemonsRing"
   },
   {
-    "name": "Kings Ring",
+    "name": "Ring of Kings",
     "type": "toggle",
     "img": "images/items/KingsRing.png",
     "codes": "KingsRing"
@@ -715,7 +662,7 @@
     "codes": "WaterBlessing"
   },
   {
-    "name": "Heros Soul",
+    "name": "Hero's Soul",
     "type": "toggle",
     "img": "images/items/HerosSoul.png",
     "codes": "HerosSoul"
