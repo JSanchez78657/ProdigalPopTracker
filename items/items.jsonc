@@ -9,17 +9,17 @@
       {
         "name": "Iron Pick",
         "img": "images/items/IronPick.png",
-        "inherit_codes": false
+        "inherit_codes": true
       },
       {
         "name": "Blessed Pick",
         "img": "images/items/BlessedPick.png",
-        "inherit_codes": false
+        "inherit_codes": true
       },
       {
         "name": "Bolt Anchor",
         "img": "images/items/BoltAnchor.png",
-        "inherit_codes": false
+        "inherit_codes": true
       }
     ]
   },
@@ -33,12 +33,12 @@
       {
         "name": "Dread Hand",
         "img": "images/items/DreadHand.png",
-        "inherit_codes": false
+        "inherit_codes": true
       },
       {
         "name": "Empowered Hand",
         "img": "images/items/EmpoweredHand.png",
-        "inherit_codes": false
+        "inherit_codes": true
       }
     ]
   },
@@ -52,12 +52,12 @@
       {
         "name": "Rust Knuckle",
         "img": "images/items/RustKnuckle.png",
-        "inherit_codes": false
+        "inherit_codes": true
       },
       {
         "name": "Flare Knuckle",
         "img": "images/items/FlareKnuckle.png",
-        "inherit_codes": false
+        "inherit_codes": true
       }
     ]
   },

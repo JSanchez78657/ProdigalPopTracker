@@ -1,6 +1,12 @@
 [
   //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
   {
+    "name": "overworld",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/overworld.png"
+  },
+  {
     "name": "map1",
     "location_size": 48,
     "location_border_thickness": 4,
@@ -11,11 +17,5 @@
     "location_size": 48,
     "location_border_thickness": 4,
     "img": "images/maps/map_2.png"
-  },
-  {
-    "name": "overworld",
-    "location_size": 48,
-    "location_border_thickness": 4,
-    "img": "images/maps/overworld.png"
   }
 ]

@@ -28,6 +28,15 @@
           "type": "tabbed",
           "tabs": [
             {
+              "title": "Overworld",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "overworld"
+                ]
+              }
+            },
+            {
               "title": "Map 1",
               "content": {
                 "type": "map",
@@ -42,15 +51,6 @@
                 "type": "map",
                 "maps": [
                   "map2"
-                ]
-              }
-            },
-            {
-              "title": "Overworld",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "overworld"
                 ]
               }
             }
